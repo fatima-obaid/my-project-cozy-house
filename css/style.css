@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cormorant+Garamond:wght@300&family=Great+Vibes&family=Rajdhani:wght@300&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cormorant+Garamond:wght@300&family=Great+Vibes&family=Rajdhani:wght@300&display=swap');
+.carousel-caption h3{
+  font-family: 'Slabo 27px', serif;
+  font-size: 35px;
+  text-align: left;
+  margin-top: -320px;
+}
+.carousel-caption p , .text p{
+    font-size: 16px;
+    text-align: left;
+}
+.carousel-caption button{
+margin-left: -86%;
+background-color: #f1cdb3;
+color: black;
+width: 150px;
+}
+@media (max-width:600px){
+  .carousel-caption button{
+    margin-left: -55%;
+    }
+    .container1 .image_container{
+      margin: auto;
+      width: 85%;
+    }
+    .container1 h2,.container3 .div-container3,.container5 h2,.container5 span{
+      text-align: center;
+    }
+    .container1 .image_container1{
+      margin-left: -50px;
+    }
+
+
+  
+}
+.d-flex .btn,.login .btn ,.btn1 .btn,.container3 .span,.container1 .btton-copy{
+background-color:  #f1cdb3;
+}
+.mx-2 .fab,.container5 span{
+  color: #f1cdb3;
+}
+.modal-body ,.modal-footer,.modal-header ,.container-fluid .navbar-brand,.text h2,.accordion .accordion-item,.carousel-caption p , .text p,.carousel-caption button ,.d-flex .btn,.login .btn ,.btn1 .btn,.modal_item ,.modal_descr,.conta3 h2,.conta3 h5,.conta3 .btn,.conte4 h2,.conte4 h5 ,.container3 .div-container3,.container5 ,.container1 .btton-copy{
+  font-family: 'Slabo 27px', serif;
+}
+.container-fluid .navbar-brand{
+  font-size: 30px;
+}
+.container1 {
+  padding: 100px 0;
+}
+.accordion .accordion-item{
+  --bs-accordion-btn-bg: #f1cdb322;
+  --bs-accordion-active-bg: #f1cdb351;
+  --bs-accordion-btn-focus-box-shadow:none;
+}
+.modal_item ,.modal_descr{
+  text-align: left;
+}
+.conta3 .btn{
+  --bs-btn-hover-bg: #f1cdb3;
+  --bs-btn-hover-color: #1a1919;
+  --bs-btn-border-color:#f1cdb3; 
+  --bs-btn-border-width:3px;
+text-transform: uppercase;
+  width: 120px;
+}
+.foot{
+  background-image: url(../imegs/cat2.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+ background-size: 100% 100%;
+}
+.container5 span{
+  font-size: 20px;
+}
+.conte4 .div6-row:hover{
+  transition: 1s;
+  transform: scale(0.9);
+}

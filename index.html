@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COZY HOUSE</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="javascript:void(0)"> COZY HOUSE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">About the shelter</a>
+          </li>
+          <li class="nav-item dropdown">
+            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+              Our pets
+            </button>
+            <div class="dropdown-menu  " >
+              <a class="dropdown-item" href="#"> Persian Cats</a>
+              <a class="dropdown-item" href="#">Siamese cat</a>
+              <a class="dropdown-item" href="#">Maine Coon</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"> Bolognese Dog Breed</a>
+              <a class="dropdown-item" href="#">Rottweiler dog</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Help the shelter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Contacts</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-light" type="button">Search</button>
+        </form>
+        <div class="login">
+        <button type="button" class="btn btn-light m-2" data-bs-toggle="modal" data-bs-target="#myModal">
+         login
+        
+        </button>
+      </div>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header ">
+                <h4 class="modal-title w-100 font-weight-bold text-center">Sign in</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <form class="text-center border border-light " action="#!">
+                  <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+                  <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+                  <div class="d-flex justify-content-around">
+                      <div>
+                          <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input bg-muted" id="defaultLoginFormRemember">
+                              <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                          </div>
+                      </div>
+                      <div >
+                          <a href="" class="text-decoration-none text-muted">Forgot password?</a>
+                      </div>
+                  </div>
+                  <div class="btn1">
+                  <button class="btn btn-block  btn-light my-4 w-100" type="submit" data-bs-dismiss="modal">Sign in</button>
+                  </div>
+                  <p class="member">Not a member?
+                      <a href="#" class="text-decoration-none text-muted ">Register</a>
+                  </p>
+                  <p>or sign in with:</p>
+                  <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f "></i></a>
+                  <a href="#" class="mx-2" role="button"><i class="fab fa-twitter "></i></a>
+                  <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in "></i></a>
+                  <a href="#" class="mx-2" role="button"><i class="fab fa-github "></i></a>
+              </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-light bg-light" data-bs-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+<div id="demo" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active ">
+            <img src="./imegs/home-hero-free-img-1536x740.jpg" alt="" height="600" class="w-100">
+            <div class="carousel-caption ">
+                <h3 class=" text-capitalize ">Not only people need a house</h3>
+                <p  class="text-capitalize ">We offer to give a chance to a little and nice puppy with an extremely <br> wide and open heart. He or she will love you more than anybody else <br> in the world, you will see!</p>
+                <button class="btn btn-light text-capitalize" >make a friend</button>
+              </div> 
+        </div>
+        <div class="carousel-item">
+            <img src="./imegs/cat2-back.png" alt=""   height="600" class="w-100">
+            <div class="carousel-caption">
+                <h3 class="text-capitalize text-left">Not only people need a house</h3>
+                <p class=" text-capitalize">We offer to give a chance to a little and nice puppy with an extremely <br> wide and open heart. He or she will love you more than anybody else <br> in the world, you will see!</p>
+                <button class="btn btn-light text-capitalize">make a friend</button>
+              </div> 
+        </div>
+        <div class="carousel-item">
+            <img src="./imegs/dog-back.png" alt=""  height="600" class="w-100">
+            <div class="carousel-caption">
+                <h3 class=" text-capitalize">Not only people need a house</h3>
+                <p class=" text-capitalize">We offer to give a chance to a little and nice puppy with an extremely <br> wide and open heart. He or she will love you more than anybody else <br> in the world, you will see!</p>
+                <button class="btn btn-light text-capitalize">make a friend</button>
+              </div> 
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<div class="container  container1">
+  <div class="row justify-content-center"> 
+      <div class="image_container col-lg-5"> 
+               <img src="./imegs/Pets (1).png" alt="a dog and a cat siting next to each other" class="p-5">
+          </div>
+           <div class="col-lg-5 text mt-3"> 
+              <h2  class="mt-5">About the shelter “Cozy House”</h2> 
+              <p class="mt-3 text-capitalize ">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
+              <p class="mt-2 text-capitalize ">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone. </p>
+           </div>
+<div class="image_container col-lg-5"> 
+<div class="accordion ">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button   text-uppercase " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Persian Cats
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" >
+      <div class="accordion-body">
+        <strong>Persian cats This type of cat is known for its calmness.</strong>and beautiful round facial features with round eyes. It is one of the most popular animals among many people who love raising cats. Studies indicate that these cats have been present in Persia since ancient times, and they were named after the country. It has undergone many developments, both in color and body, while still retaining the thick fur that covers its body.<br>
+        <button type="button" class="btn btn-light btton-copy" id="toastbtn" data-bs-toggle="tooltip" title="copy to clipboard">COPY</button>
+        <div class="toast ">
+          <div class="toast-header">
+            <strong class="me-auto text-uppercase">text copy</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+          </div>
+          <div class="toast-body">
+            <p>The text has been copied</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed   text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Bolognese Dog Breed
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" >
+      <div class="accordion-body">
+        <strong>The Bolognese dog breed is characterized by being very friendly towards children,</strong> and it is also one of the types of small dogs that dog breeders love, as it is very playful and loves to play, and it is also very curious and intelligent.This dog has a sense of humor and is a good companion at home, whether for walking, playing, running, or even having fun with your children at home. This dog has a beautiful white color, and it grew up in Italy in the city of Bologna, which is why it is called by that name.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed   text-uppercase " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Rottweiler dog
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+      <div class="accordion-body">
+        <strong>The Rottweiler is one of the most famous guard dogs.</strong> It is a huge dog that weighs about 100 pounds (45 kilograms), and since they can cause serious injury to anyone they consider to be a potential threat, it is necessary that they be well trained so that they understand when aggressive behavior is appropriate. When is it unacceptable? 
+   </div>
+      </div>
+  </div>
+</div>
+</div> 
+  <div class="image_container1 col-lg-5"> 
+    <img src="./imegs/cat-1.png" alt="a dog and a cat siting next to each other"  width="470">
+</div>
+  </div>
+</div>
+
+</div>
+</div>
+<section id="pets" class="bg-light"> 
+  <div class="container text-center pt-5 conta3 text-secondary"> 
+    <h2 class="text-center">Our freinds who<br>are looking for a house</h2> 
+    <div class="row">
+      <div class="col-md-4  p-4  ">
+        <img src="./imegs/Jennifer.png" alt="Jennifer" width="250" >
+        <h5 class="text-uppercase mt-2">Jennifer</h5>
+        <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#myModal1">learn more</button>
+        <div class="modal" id="myModal1">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+          <div class="modal-content">
+          <button type="button" class="btn-close m-3" data-bs-dismiss="modal"></button>
+       <div class="modal-body row">
+        <div class="col-md-6 model-img"><img src="./imegs/Jennifer-removebg-preview.png" alt="Jennifer"  width="290" ></div>
+        
+       <div class="modal_descr col-md-6 ">
+                  <h2 class=" text-align-left">Jennifer</h2>
+                  <h3>Dog-Labrador</h3>
+                  <p>Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                  <ul class="modal_item">
+                      <li><strong class="text-capitalize">age:</strong> 2 months</li>
+                      <li><strong class="text-capitalize">Inoculations:</strong> none</li>
+                      <li><strong class="text-capitalize">Diseases:</strong> none</li>
+                      <li><strong class="text-capitalize">Parasites:</strong> none</li>    
+                  </ul>
+              </div>
+            </div>
+            </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-md-4 p-2 ">
+        <img src="./imegs/Katrine.png" alt="Katrine" width="250">
+        <h5 class="text-uppercase mt-2">Katrine</h5>
+        <button type="button" class="btn btn-outline"data-bs-toggle="modal" data-bs-target="#myModal2">learn more</button>
+        <div class="modal" id="myModal2">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+          <div class="modal-content">
+          <button type="button" class="btn-close m-3" data-bs-dismiss="modal" ></button>
+       <div class="modal-body row">
+        <div class="col-md-6 model-img"><img src="./imegs/Katrine-removebg-preview.png" alt="Katrine" width="290" ></div>
+        
+       <div class="modal_descr col-md-6 ">
+                  <h2 class=" text-align-left">Katrine</h2>
+                  <h3>Cat - British Shorthair</h3>
+                  <p>Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.</p>
+                  <ul class="modal_item">
+                      <li><strong class="text-capitalize">age:</strong> 2 months</li>
+                      <li><strong class="text-capitalize">Inoculations:</strong> none</li>
+                      <li><strong class="text-capitalize">Diseases:</strong> none</li>
+                      <li><strong class="text-capitalize">Parasites:</strong> none</li>    
+                  </ul>
+              </div>
+            </div>
+            </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-md-4   p-4 ">
+        <img src="./imegs/Woody.png" alt="Woody" width="250">
+        <h5 class="text-uppercase mt-2">Woody</h5>
+        <button type="button" class="btn btn-outline " data-bs-toggle="modal" data-bs-target="#myModal3">learn more</button>
+        <div class="modal" id="myModal3">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+          <div class="modal-content">
+          <button type="button" class="btn-close m-3" data-bs-dismiss="modal"></button>
+       <div class="modal-body row">
+        <div class="col-md-6 model-img"><img src="./imegs/Woody-removebg-preview.png " alt="Woody"  width="290"></div>
+        
+       <div class="modal_descr col-md-6 ">
+                  <h2 class=" text-align-left">Woody</h2>
+                  <h3>Dog - Golden Retriever</h3>
+                  <p>Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.</p>
+                  <ul class="modal_item">
+                      <li><strong class="text-capitalize">age:</strong> 2.5 months</li>
+                      <li><strong class="text-capitalize">Inoculations:</strong> none</li>
+                      <li><strong class="text-capitalize">Diseases:</strong> none</li>
+                      <li><strong class="text-capitalize">Parasites:</strong> none</li>    
+                  </ul>
+              </div>
+            </div>
+            </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-md-4  col-ms-6  p-4 mb-5">
+        <img src="./imegs/pets-freddie.svg" alt="freddie" width="250">
+        <h5 class="text-uppercase mt-2">freddie</h5>
+        <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#myModal4">learn more</button>
+        <div class="modal" id="myModal4">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+          <div class="modal-content">
+          <button type="button" class="btn-close m-3" data-bs-dismiss="modal"></button>
+       <div class="modal-body row">
+        <div class="col-md-6 model-img"><img src="./imegs/pets-freddie.svg " alt="freddie"   width="290" ></div>
+        
+       <div class="modal_descr col-md-6 ">
+                  <h2 >freddie</h2>
+                  <h3>Cat - British Shorthai</h3>
+                  <p>Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings an bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a loin his life, and is looking to find his forever home</p>
+                  <ul class="modal_item">
+                      <li><strong class="text-capitalize">age:</strong> 2 months</li>
+                      <li><strong class="text-capitalize">Inoculations:</strong> none</li>
+                      <li><strong class="text-capitalize">Diseases:</strong> none</li>
+                      <li><strong class="text-capitalize">Parasites:</strong> none</li>    
+                  </ul>
+              </div>
+            </div>
+            </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-md-4 p-4 mb-5">
+        <img src="./imegs/pets-timmy.svg" alt="timmy" width="250">
+        <h5 class="text-uppercase mt-2">timmy</h5>
+        <button type="button" class="btn btn-outline " data-bs-toggle="modal" data-bs-target="#myModal5">learn more</button>
+        <div class="modal" id="myModal5">
+          <div class="modal-dialog modal-dialog-centered  modal-lg">
+          <div class="modal-content">
+          <button type="button" class="btn-close m-3" data-bs-dismiss="modal"></button>
+       <div class="modal-body row">
+        <div class="col-md-6 model-img"><img src="./imegs/pets-timmy.svg " alt="timmy"   width="290" ></div>
+        
+       <div class="modal_descr col-md-6 ">
+                  <h2 class=" text-align-left">timmy</h2>
+                  <h3>Dog-Labrador</h3>
+                  <p>Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.</p>
+                  <ul class="modal_item">
+                      <li><strong class="text-capitalize">age:</strong> 3 months</li>
+                      <li><strong class="text-capitalize">Inoculations:</strong> none</li>
+                      <li><strong class="text-capitalize">Diseases:</strong> none</li>
+                      <li><strong class="text-capitalize">Parasites:</strong> none</li>    
+                  </ul>
+              </div>
+            </div>
+            </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-md-4  p-4 mb-5">
+        <img src="./imegs/images__1_-removebg-preview.png" alt="charly" width="220">
+        <h5 class="text-uppercase mt-2">charly</h5>
+        <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#myModal6">learn more</button>
+        <div class="modal" id="myModal6">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+        <div class="modal-content">
+        <button type="button" class="btn-close m-3" data-bs-dismiss="modal"></button>
+        <div class="modal-body row">
+      <div class="col-md-6 model-img"><img src="./imegs/images (1).jpeg " alt="charly"  width="250" ></div>
+      
+     <div class="modal_descr col-md-6 ">
+                <h2 class=" text-align-left">Charly</h2>
+                <h3>Dog - Jack Russell Terrier</h3>
+                <p>his cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy</p>
+                <ul class="modal_item">
+                    <li><strong class="text-capitalize">age:</strong> 3.5 months</li>
+                    <li><strong class="text-capitalize">Inoculations:</strong> none</li>
+                    <li><strong class="text-capitalize">Diseases:</strong> none</li>
+                    <li><strong class="text-capitalize">Parasites:</strong> none</li>    
+                </ul>
+            </div>
+          </div>
+          </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+<section id="help">
+<div class="container  conte4 text-center text-secondary text-capitalize">
+  <h2 class="text-center mt-5">How you can help<br>our shelter</h2> 
+<div class="row  justify-content-around">
+<div class="  col-lg-2 col-6  mt-5 div6-row">
+  <img src="./imegs/cat-food.svg" alt="food" width="50">
+  <h5 class="mt-3">pet food</h5>
+</div>
+<div class="  col-lg-2 col-6  mt-5  div6-row">
+  <img src="./imegs/ambulance.svg" alt="Transportation" width="50">
+  <h5 class="mt-3">Transportation</h5>
+</div>
+<div class="  col-lg-2  col-6    mt-5  div6-row">
+  <img src="./imegs/ball.svg" alt="Toys" width="60">
+  <h5 class="mt-3">Toys</h5>
+</div>
+<div class=" col-lg-2 col-6    mt-5  div6-row">
+  <img src="./imegs/bowl.svg" alt="Bowls and cups" width="50">
+  <h5 class="mt-3">Bowls and cups</h5>
+</div>
+<div class="col-lg-2  col-6  mt-5  div6-row " >
+  <img src="./imegs/shampoo.svg" alt="Shampoos" width="50">
+  <h5 class="mt-3">Shampoos</h5>
+</div>
+  <div class=" col-lg-3 col-6   mt-5  div6-row" >
+    <img src="./imegs/pills.svg" alt="Vitamins" width="50">
+    <h5 class="mt-3">Vitamins</h5>
+  </div>
+  <div class=" col-lg-3  col-6   mt-5  div6-row">
+    <img src="./imegs/syringe.svg" alt="Medicines" width="50">
+    <h5 class="mt-3">Medicines</h5>
+  </div>
+  <div class=" col-lg-3  col-6   mt-5  div6-row">
+    <img src="./imegs/leash.svg" alt="Collars / leashes" width="50">
+    <h5 class="mt-3">Collars / leashes</h5>
+  </div>
+  <div class=" col-lg-3  col-6   mt-5  div6-row">
+    <img src="./imegs/cat.svg" alt="Sleeping areas" width="50">
+    <h5 class="mt-3">Sleeping areas</h5>
+  </div>
+</div> 
+</div>
+</section>
+<section id="donation" class="bg-light mt-5">
+<div class="container container3 ">
+  <div class="row justify-content-center"> 
+    <div class="image_container col-lg-5"> 
+             <img src="./imegs/Dog_donate.png" alt="a dog and a cat siting next to each other" class="mt-5"  width="400">
+        </div>
+         <div class="col-lg-5  mt-3 div-container3 "> 
+            <h2  class="mt-5 text-uppercase">You can also <br>
+              make a donation</h2> 
+            <p class="mt-3 text-capitalize ">Name of the bank / Type of bank account</p>
+            <span class="span rounded p-2">
+              <img src="./imegs/credit-card.svg" alt="" class="p-1 ">
+             8380 2880 8028 8791 7435
+            </span>
+            <p class="mt-3 text-capitalize  mb-5">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+         </div>
+         </div>
+</div>
+</section>
+<footer id="foot" class="foot">
+<div class=" container container5">
+<div class="row ">
+  <div class="col-md-4">
+    <h2 class="mt-5 text-light">For questions <br> and suggestions</h2>
+    <span class=" d-block mt-5"><img src="./imegs/mail.svg" alt="/">
+      email@shelter.com
+    </span>
+    <span class="d-block  mt-4"><img src="./imegs/phone.svg" alt="/">
+      +13 674 567 75 54
+    </span>
+  </div>
+  <div class="col-md-4">
+    <h2 class="mt-5 text-light">We are waiting <br> for your visit</h2>
+    <span class=" d-block mt-5 "><img src="./imegs/pin.svg" alt="/">
+     1 Central Street, libya
+    </span>
+    <span class="d-block  mt-4"><img src="./imegs/pin.svg" alt="/">
+      +13 674 567 75 54
+    </span>
+  </div>
+  <div class="col-md-4">
+    <img src="./imegs/footer-puppy.svg" alt="/" class="mt-4">
+  </div>
+</div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
