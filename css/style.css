@@ -16,7 +16,7 @@ background-color: #f1cdb3;
 color: black;
 width: 150px;
 }
-@media (max-width:600px){
+@media (max-width:700px){
   .carousel-caption button{
     margin-left: -55%;
     }
