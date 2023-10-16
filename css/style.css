@@ -20,17 +20,17 @@ width: 150px;
   .carousel-caption button{
     margin-left: -55%;
     }
-    .container1 .image_container{
-      margin: auto;
-      width: 85%;
+    .container1 .img1{
+      width:300px;
+  
     }
-    .container1 h2,.container3 .div-container3,.container5 h2,.container5 span{
+    .container1 .img2,.container3 .img4{
+      width:300px;
+    }
+    .container1 h2,.container1 p,.container3 .div-container3,.container5 h2,.container5 span{
       text-align: center;
     }
-    .container1 .image_container1{
-      margin-left: -50px;
-    }
-
+   
 
   
 }
